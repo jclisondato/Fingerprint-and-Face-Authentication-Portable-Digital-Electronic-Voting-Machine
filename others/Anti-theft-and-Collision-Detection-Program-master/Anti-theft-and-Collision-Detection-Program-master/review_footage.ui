@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>review_footage</class>
+ <widget class="QMainWindow" name="review_footage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1212</width>
+    <height>765</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>review_footage</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"> background-image: url('/home/phong/Desktop/antitheft/GUI/3/a.jpg');
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout" stretch="1,5">
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QPushButton" name="back_to_root">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>20</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color:white;
+border: 3px solid red;</string>
+        </property>
+        <property name="text">
+         <string>Back to RootMenu</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="rescan">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>26</pointsize>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color:white;
+border: 3px solid red;</string>
+        </property>
+        <property name="text">
+         <string>Rescan</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QTabWidget" name="tab">
+      <property name="font">
+       <font>
+        <pointsize>28</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 1px solid red;</string>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>16</width>
+        <height>16</height>
+       </size>
+      </property>
+      <widget class="QWidget" name="camera_left">
+       <attribute name="title">
+        <string>Left</string>
+       </attribute>
+       <layout class="QHBoxLayout" name="horizontalLayout_2" stretch="5,1">
+        <item>
+         <widget class="QListView" name="list_left">
+          <property name="styleSheet">
+           <string notr="true">QListView{background-color: black; color: white ;font-size: 24px; outline:none;font-weight:bold}
+QScrollBar:vertical {
+width: 60px;
+}</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_2">
+          <item>
+           <widget class="QPushButton" name="play_left">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>26</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">color:white;
+border: 3px solid red;</string>
+            </property>
+            <property name="text">
+             <string>Play</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="delete_left">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>26</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">color:white;
+border: 3px solid red;</string>
+            </property>
+            <property name="text">
+             <string>Delete</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="camera_right">
+       <attribute name="title">
+        <string>Right</string>
+       </attribute>
+       <layout class="QHBoxLayout" name="horizontalLayout_4" stretch="5,1">
+        <item>
+         <widget class="QListView" name="list_right">
+          <property name="styleSheet">
+           <string notr="true">QListView{background-color: black; color: white ;font-size: 24px; outline:none;font-weight:bold}
+QScrollBar:vertical {
+width: 60px;
+}</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_4">
+          <item>
+           <widget class="QPushButton" name="play_right">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>26</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">color:white;
+border: 3px solid red;</string>
+            </property>
+            <property name="text">
+             <string>Play</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="delete_right">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>26</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">color:white;
+border: 3px solid red;</string>
+            </property>
+            <property name="text">
+             <string>Delete</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="camera_front">
+       <attribute name="title">
+        <string>Front</string>
+       </attribute>
+       <layout class="QHBoxLayout" name="horizontalLayout_5" stretch="5,1">
+        <item>
+         <widget class="QListView" name="list_front">
+          <property name="styleSheet">
+           <string notr="true">QListView{background-color: black; color: white ;font-size: 24px; outline:none;font-weight:bold}
+QScrollBar:vertical {
+width: 60px;
+}</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_5">
+          <item>
+           <widget class="QPushButton" name="play_front">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>26</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">color:white;
+border: 3px solid red;</string>
+            </property>
+            <property name="text">
+             <string>Play</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="delete_front">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>26</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">color:white;
+border: 3px solid red;</string>
+            </property>
+            <property name="text">
+             <string>Delete</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="camera_back">
+       <attribute name="title">
+        <string>Back</string>
+       </attribute>
+       <layout class="QHBoxLayout" name="horizontalLayout_6" stretch="5,1">
+        <item>
+         <widget class="QListView" name="list_back">
+          <property name="styleSheet">
+           <string notr="true">QListView{background-color: black; color: white ;font-size: 24px; outline:none;font-weight:bold}
+QScrollBar:vertical {
+width: 60px;
+}</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_6">
+          <item>
+           <widget class="QPushButton" name="play_back">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>26</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">color:white;
+border: 3px solid red;</string>
+            </property>
+            <property name="text">
+             <string>Play</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="delete_back">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>26</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">color:white;
+border: 3px solid red;</string>
+            </property>
+            <property name="text">
+             <string>Delete</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

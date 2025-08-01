@@ -1,0 +1,156 @@
+# -*- coding: utf-8 -*-
+
+# Form implementation generated from reading ui file 'adjust_fac_rec.ui'
+#
+# Created by: PyQt5 UI code generator 5.12
+#
+# WARNING! All changes made in this file will be lost!
+
+from PyQt5 import QtCore, QtGui, QtWidgets
+
+
+class Ui_adjust_fac_rec(object):
+    def setupUi(self, adjust_fac_rec):
+        adjust_fac_rec.setObjectName("adjust_fac_rec")
+        adjust_fac_rec.resize(1190, 893)
+        font = QtGui.QFont()
+        font.setFamily("wasy10")
+        adjust_fac_rec.setFont(font)
+        adjust_fac_rec.setStyleSheet(" background-image: url(\'a.jpg\');\n"
+"")
+        self.centralwidget = QtWidgets.QWidget(adjust_fac_rec)
+        self.centralwidget.setObjectName("centralwidget")
+        self.verticalLayout = QtWidgets.QVBoxLayout(self.centralwidget)
+        self.verticalLayout.setObjectName("verticalLayout")
+        self.back = QtWidgets.QPushButton(self.centralwidget)
+        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Preferred, QtWidgets.QSizePolicy.Preferred)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(self.back.sizePolicy().hasHeightForWidth())
+        self.back.setSizePolicy(sizePolicy)
+        font = QtGui.QFont()
+        font.setPointSize(24)
+        font.setBold(True)
+        font.setWeight(75)
+        self.back.setFont(font)
+        self.back.setStyleSheet("color:white;\n"
+"border: 3px solid red;")
+        self.back.setObjectName("back")
+        self.verticalLayout.addWidget(self.back)
+        self.label_3 = QtWidgets.QLabel(self.centralwidget)
+        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Preferred, QtWidgets.QSizePolicy.Preferred)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(self.label_3.sizePolicy().hasHeightForWidth())
+        self.label_3.setSizePolicy(sizePolicy)
+        font = QtGui.QFont()
+        font.setFamily("Ubuntu")
+        font.setPointSize(22)
+        font.setBold(True)
+        font.setItalic(False)
+        font.setWeight(75)
+        self.label_3.setFont(font)
+        self.label_3.setStyleSheet("color:white;\n"
+"")
+        self.label_3.setAlignment(QtCore.Qt.AlignCenter)
+        self.label_3.setObjectName("label_3")
+        self.verticalLayout.addWidget(self.label_3)
+        self.label = QtWidgets.QLabel(self.centralwidget)
+        font = QtGui.QFont()
+        font.setPointSize(16)
+        font.setBold(False)
+        font.setItalic(False)
+        font.setWeight(50)
+        self.label.setFont(font)
+        self.label.setStyleSheet("color:white;\n"
+"")
+        self.label.setObjectName("label")
+        self.verticalLayout.addWidget(self.label)
+        self.horizontalLayout = QtWidgets.QHBoxLayout()
+        self.horizontalLayout.setObjectName("horizontalLayout")
+        self.left = QtWidgets.QPushButton(self.centralwidget)
+        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Preferred, QtWidgets.QSizePolicy.Preferred)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(self.left.sizePolicy().hasHeightForWidth())
+        self.left.setSizePolicy(sizePolicy)
+        font = QtGui.QFont()
+        font.setFamily("Ubuntu")
+        font.setPointSize(72)
+        font.setBold(True)
+        font.setItalic(False)
+        font.setWeight(75)
+        self.left.setFont(font)
+        self.left.setStyleSheet("color:white;\n"
+"border: 3px solid red;")
+        self.left.setObjectName("left")
+        self.horizontalLayout.addWidget(self.left)
+        self.confident_rate = QtWidgets.QLabel(self.centralwidget)
+        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Preferred, QtWidgets.QSizePolicy.Preferred)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(self.confident_rate.sizePolicy().hasHeightForWidth())
+        self.confident_rate.setSizePolicy(sizePolicy)
+        font = QtGui.QFont()
+        font.setFamily("Ubuntu")
+        font.setPointSize(36)
+        font.setBold(True)
+        font.setItalic(False)
+        font.setWeight(75)
+        self.confident_rate.setFont(font)
+        self.confident_rate.setStyleSheet("color:white;\n"
+"")
+        self.confident_rate.setAlignment(QtCore.Qt.AlignCenter)
+        self.confident_rate.setObjectName("confident_rate")
+        self.horizontalLayout.addWidget(self.confident_rate)
+        self.right = QtWidgets.QPushButton(self.centralwidget)
+        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Preferred, QtWidgets.QSizePolicy.Preferred)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(self.right.sizePolicy().hasHeightForWidth())
+        self.right.setSizePolicy(sizePolicy)
+        font = QtGui.QFont()
+        font.setFamily("Ubuntu")
+        font.setPointSize(72)
+        font.setBold(True)
+        font.setItalic(False)
+        font.setWeight(75)
+        self.right.setFont(font)
+        self.right.setStyleSheet("color:white;\n"
+"border: 3px solid red;")
+        self.right.setObjectName("right")
+        self.horizontalLayout.addWidget(self.right)
+        self.horizontalLayout.setStretch(0, 2)
+        self.horizontalLayout.setStretch(1, 7)
+        self.horizontalLayout.setStretch(2, 2)
+        self.verticalLayout.addLayout(self.horizontalLayout)
+        self.verticalLayout.setStretch(0, 1)
+        self.verticalLayout.setStretch(1, 2)
+        self.verticalLayout.setStretch(2, 2)
+        self.verticalLayout.setStretch(3, 8)
+        adjust_fac_rec.setCentralWidget(self.centralwidget)
+
+        self.retranslateUi(adjust_fac_rec)
+        QtCore.QMetaObject.connectSlotsByName(adjust_fac_rec)
+
+    def retranslateUi(self, adjust_fac_rec):
+        _translate = QtCore.QCoreApplication.translate
+        adjust_fac_rec.setWindowTitle(_translate("adjust_fac_rec", "remove a driver"))
+        self.back.setText(_translate("adjust_fac_rec", "Back to Security"))
+        self.label_3.setText(_translate("adjust_fac_rec", "Adjust confidence interval for facial recognition"))
+        self.label.setText(_translate("adjust_fac_rec", "This number will be the threshold for the facial recogniton to allow the driver into the system"))
+        self.left.setText(_translate("adjust_fac_rec", "⊲"))
+        self.confident_rate.setText(_translate("adjust_fac_rec", "CONFIDENT RATE"))
+        self.right.setText(_translate("adjust_fac_rec", "⊳"))
+
+
+
+
+if __name__ == "__main__":
+    import sys
+    app = QtWidgets.QApplication(sys.argv)
+    adjust_fac_rec = QtWidgets.QMainWindow()
+    ui = Ui_adjust_fac_rec()
+    ui.setupUi(adjust_fac_rec)
+    adjust_fac_rec.show()
+    sys.exit(app.exec_())
